@@ -1,31 +1,9 @@
-h3{
-    text-align: center;
-    font-weight: bold;
-}
-
-.top{
-    border-bottom: 2px solid rgba(211, 211, 211, 0.5);
-
-}
-
-.calculate-button{
-    text-align: center;
-    font-weight: bold;
-}
-
-.bottom{
-    border-top: 2px solid rgba(211, 211, 211, 0.5);
-
-}
-
-#calculate{
-    border-radius: 5px;
-    width: fit-content;
-}
 
 body{
     height: 100vh;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('https://i.pinimg.com/originals/bf/9d/85/bf9d8545d2b863dfaa0300a845381243.jpg');
+    background-size: 100% 100%;
 }
 
 .container{
@@ -37,14 +15,14 @@ body{
     align-items: center;
 }
 
-calculator{
+.calculator{
     border: 1px solid lightgray;
     background-color: whitesmoke;
     border-radius: 5px;
     width: 400px;
     margin: auto;
     padding: 0 25px;
-    font-size: 1 rem;
+    font-size: 1rem;
     font-weight: 100;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
@@ -55,12 +33,12 @@ calculator{
     padding: 8px;
     outline: none;
     border-radius: 5px;
-    border: 1px solid lightgrey;
+    border: 1px solid lightgray;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
 
-.calculate-button{
+.calculator button{
     width: 10%;
     padding: 8px;
     outline: none;
@@ -72,9 +50,17 @@ calculator{
     background-color: whitesmoke;
 }
 
-.calculate-button:hover{
+.calculator button:hover{
     background-color: rgba(0, 0, 0, 0.1);   
 
+}
+
+#quality{
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
 }
 
 #tip-amount{
@@ -99,7 +85,7 @@ calculator{
 
 @-webkit-keyframes fadein{
     from{bottom:0; opacity: 0;}
-    to {bottom: 30px; opacity: 1;}
+    to {bottom:30px; opacity: 1;}
 }
 
 @keyframes fadein{
