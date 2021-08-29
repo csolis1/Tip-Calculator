@@ -10,30 +10,41 @@
 <body>
     <div class="container">
         <div class="calculator">
-            <h3> Tip Calculator</h3>
-            <p class="top"></p>
+            <h3 style="text-align: center; font-weight: bold;"> Tip Calculator</h3>
+            <p style="border-bottom: 2px solid rgba(211, 211, 211, 0.5)"></p>
             <br>
             <label for="amount"> Bill Amount</label>
             <br>
             <button><i class="fas fa-dollar-sign"></i></button>
-            <input id="amount" type="text">
+            <input id="amount" type="number">
             <br>
             <label for="guest">Number of Guests</label>
             <br>
             <button><i></i></button>
-            <input id="guest" type="text">
+            <input id="guest" type="number">
             <br>
             <label for="tip-percentage">Tip %</label>
             <br>
             <button><i></i></button>
             <input id="tip-percentage" type="text"></input>
-        <div class="calculate-button">
-            <p class="bottom"></p>
-            <button id="calculate" onClick="calculate()">Calculate</button>
-        </div>            
-        </div>
-        <div id="tip-amount">
+            <br>
+            <label for="quality">Service Quality Pre-sets</label>
+            <br>
+            <select id="quality">
+                <option disabled selected value='0'>Choose</option>
+                <option value="0.3">30% - Outstanding</option>
+                <option value="0.3">20% - Good</option>
+                <option value="0.3">18% - OK</option>
+                <option value="0.3">15% - Subpar</option>
+                <option value="0.3">10% - Yikes</option>
+            </select>
 
+        <div style="text-align: center;">
+            <p style="border-top: 2px solid rgba(211, 211, 211, 0.5)"></p>
+            <button style="border-radius: 5px; width: fit-content;" onclick="calculate()">Calculate</button>
+        </div>            
+    </div>
+        <div id="tip-amount">
         </div>
     </div>
 </body>
