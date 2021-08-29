@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <h3> Tip Calculator</h3>
+            <p class="top"></p>
+            <br>
+            <label for="amount"> Bill Amount</label>
+            <br>
+            <button><i class="fas fa-dollar-sign"></i></button>
+            <input id="amount" type="text">
+            <br>
+            <label for="guest">Number of Guests</label>
+            <br>
+            <button><i></i></button>
+            <input id="guest" type="text">
+            <br>
+            <label for="tip-percentage">Tip %</label>
+            <br>
+            <button><i></i></button>
+            <input id="tip-percentage" type="text"></input>
+        <div class="calculate-button">
+            <p class="bottom"></p>
+            <button id="calculate" onClick="calculate()">Calculate</button>
+        </div>            
+        </div>
+        <div id="tip-amount">
+
+        </div>
+    </div>
+</body>
+</html>

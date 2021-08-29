@@ -1,0 +1,58 @@
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.top{
+    border-bottom: 2px solid rgba(211, 211, 211, 0.5);
+
+}
+
+.calculate-button{
+    text-align: center;
+    font-weight: bold;
+}
+
+.bottom{
+    border-top: 2px solid rgba(211, 211, 211, 0.5);
+
+}
+
+#calculate{
+    border-radius: 5px;
+    width: fit-content;
+}
+
+body{
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    border: 1px solid black;
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+calculator{
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 400px;
+    margin: auto;
+    padding: 0 25px;
+    font-size: 1 rem;
+    font-weight: 100;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.calculator input{
+    box-sizing: border-box;
+    width: 90%;
+    padding: 8px;
+    outline: none;
+}
